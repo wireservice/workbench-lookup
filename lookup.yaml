@@ -1,0 +1,18 @@
+id_name: lookup
+name: Lookup
+category: Add data
+description: Join data from wireservice lookup tables.
+help_url: modules/add-data/lookup
+parameters:
+- id_name: columns
+  type: multicolumn
+  name: Column(s) containing keys
+- id_name: keys
+  type: string
+  name: Key name(s) to lookup (if different from column names)
+- id_name: value
+  type: string
+  name: Value to join
+- id_name: version
+  type: string
+  name: Version of lookup table
