@@ -6,6 +6,7 @@ This is mostly a port of [agate-lookup](https://github.com/wireservice/agate-loo
 
 ## Wishlist
 
+* Unit tests should not mock the lookup "API"
 * Fetch/cache list of valid lookups from repository (auto-fill)
 * Resolve ambiguity between agate `Number` type and pandas `int`/`float`.
 * Convert value lookup value columns to types declared in the lookup YAML.
